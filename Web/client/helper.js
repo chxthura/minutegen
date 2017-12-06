@@ -5,6 +5,14 @@ var domTools = {
         div.innerHTML = innerHTML;
         return div;
     },
+    
+    // Dont know how create the href
+
+    createA: function (classNames, innerHTML = ''){
+            var a = document.createElement('a');
+            a.innerHTML = innerHTML;
+            return div;
+        },
 
     createIcon: function (classNames, iconName){
         var i = document.createElement('i');
